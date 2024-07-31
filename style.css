@@ -108,3 +108,37 @@ body {
     margin-top: 10px;
 }
 
+/* for mobile and tablet screen */
+
+@media (max-width: 480px) {
+    .searchBar input {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .searchBar button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .searchBar button img {
+        width: 14px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .searchBar input {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+
+    .searchBar button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .searchBar button img {
+        width: 12px;
+    }
+}
